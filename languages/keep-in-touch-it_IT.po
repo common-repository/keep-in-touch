@@ -1,0 +1,557 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Keep in Touch v1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2017-06-17 15:43:56+0000\n"
+"Last-Translator: admin <racanu@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: ITALY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#. translators: plugin header field 'Name'
+#: class-keep-in-touch-msg.php:37
+#: class-keep-in-touch-msg.php:63
+#: class-keep-in-touch-msg.php:88
+#: class-keep-in-touch-msg.php:114
+#: class-keep-in-touch-msg.php:142
+#: class-keep-in-touch-msg.php:164
+#: class-keep-in-touch-msg.php:183
+#: class-keep-in-touch-msg.php:215
+#: class-keep-in-touch-msg.php:224
+#: class-keep-in-touch-msg.php:236
+#: class-keep-in-touch-widget.php:13
+#: class-keep-in-touch-widget.php:37
+#: keep-in-touch.php:0
+#: keep-in-touch.php:182
+#@ keep-in-touch
+msgid "Keep in Touch"
+msgstr "Resta in contatto"
+
+#: class-keep-in-touch-widget.php:14
+#@ keep-in-touch
+msgid "Displays a form that allows visitors to subscribe for updates."
+msgstr "Mostra un modulo che permette ai visitatori di iscriversi per ricevere aggiornamenti dal sito."
+
+#: class-keep-in-touch-msg.php:44
+#: class-keep-in-touch-widget.php:44
+#@ keep-in-touch
+msgid "Enter email"
+msgstr "Inserire indirizzo email"
+
+#: class-keep-in-touch-msg.php:46
+#: class-keep-in-touch-widget.php:52
+#@ keep-in-touch
+msgid "Sign up"
+msgstr "Iscriviti"
+
+#. translators: plugin header field 'Description'
+#: keep-in-touch.php:0
+#@ keep-in-touch
+msgid "Maintains a list of subscribers to updates and newsletter."
+msgstr "Mantiene una lista d'iscritti per aggiornamenti e notiziario."
+
+#. translators: plugin header field 'Author'
+#: keep-in-touch.php:0
+#@ keep-in-touch
+msgid "Racanu"
+msgstr ""
+
+#: class-keep-in-touch-msg.php:73
+#@ keep-in-touch
+msgid "Thank you for subscribing to updates from us."
+msgstr "Grazie per esserti iscritto/a per ricevere aggiornamenti da noi."
+
+#: class-keep-in-touch-msg.php:81
+#, php-format
+#@ keep-in-touch
+msgid "To confirm the subscription, use the following link: %s"
+msgstr "Per confermare l'iscrizione usa questo collegamento: %s"
+
+#: class-keep-in-touch-msg.php:92
+#@ keep-in-touch
+msgid "You will shortly receive an email message to confirm your subscription request."
+msgstr "A breve riceverai un messaggio email per confermare la richiesta d'iscrizione."
+
+#: keep-in-touch.php:41
+#@ keep-in-touch
+msgid "Your subscription is now confirmed. You will be receiving updates from us. Welcome and enjoy!"
+msgstr "L'iscrizione è confermata. Da ora riceverai aggiornamenti da noi. Ti diamo il benvenuto è ti auguriamo una buona permanenza!"
+
+#: class-keep-in-touch-msg.php:166
+#@ keep-in-touch
+msgid "You will shortly receive an email message to confirm the cancellation request."
+msgstr "A breve riceverai un messaggio email per confermare la richiesta di cancellazione dell'iscrizione."
+
+#: class-keep-in-touch-widget.php:40
+#@ keep-in-touch
+msgid "Receive a weekly digest of the posts."
+msgstr "Ricevi un riassunto settimanale degli articoli pubblicati."
+
+#: class-keep-in-touch-msg.php:65
+#@ keep-in-touch
+msgid "The anti-robot check has failed. Your subscription request cannot be considered."
+msgstr "La verifica anti-robot è fallita. La richiesta d'iscrizione non può essere presa in considerazione."
+
+#: class-keep-in-touch-settings.php:280
+#@ default
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Non hai un livello di autorizzazione sufficiente per accedere a questa pagina."
+
+#: class-keep-in-touch-settings.php:188
+#@ keep-in-touch
+msgid "Send daily digest now"
+msgstr "Invia riassunto giornaliero adesso"
+
+#: class-keep-in-touch-settings.php:189
+#@ keep-in-touch
+msgid "Send weekly digest now"
+msgstr "Invia riassunto settimanale adesso"
+
+#: class-keep-in-touch-settings.php:173
+#@ keep-in-touch
+msgid "Send digest now"
+msgstr "Invia riassunto adesso"
+
+#: class-keep-in-touch-settings.php:179
+#: class-keep-in-touch-settings.php:219
+#@ keep-in-touch
+msgid "Email addresses to send to"
+msgstr "Indirizzi email"
+
+#: class-keep-in-touch-settings.php:169
+#: class-keep-in-touch-settings.php:209
+#@ keep-in-touch
+msgid "Enter comma-separated list of email addresses"
+msgstr "Inserire una lista d'indirizzi email separati da virgole"
+
+#: class-keep-in-touch-settings.php:170
+#, php-format
+#@ keep-in-touch
+msgid "or leave empty to send to %d daily digest or %d weekly digest confirmed subscribers"
+msgstr "o lasciare vuoto per inviare a %d abbonati del riassunto giornaliero o %d del riassunto settimanale"
+
+#: class-keep-in-touch-settings.php:213
+#@ keep-in-touch
+msgid "Newsletter"
+msgstr "Notiziario"
+
+#: class-keep-in-touch-settings.php:210
+#, php-format
+#@ keep-in-touch
+msgid "or leave empty to send to %d confirmed newsletter subscribers"
+msgstr "o lasciare vuoto per inviare a %d abbonati del notiziario"
+
+#: class-keep-in-touch-settings.php:226
+#@ keep-in-touch
+msgid "Subject"
+msgstr "Oggetto"
+
+#: class-keep-in-touch-settings.php:228
+#@ keep-in-touch
+msgid "Enter the subject of the newsletter message"
+msgstr "Inserire l'oggetto del messaggio di notiziario"
+
+#: class-keep-in-touch-settings.php:231
+#@ keep-in-touch
+msgid "Message"
+msgstr "Messaggio"
+
+#: class-keep-in-touch-settings.php:249
+#@ keep-in-touch
+msgid "Send newsletter message"
+msgstr "Invia messaggio di notiziario"
+
+#: class-keep-in-touch-settings.php:105
+#@ keep-in-touch
+msgid "Digest delivery settings"
+msgstr "Impostazioni consegna riassunto"
+
+#: class-keep-in-touch-settings.php:116
+#@ keep-in-touch
+msgid "The day of the week in which the weekly digest will be delivered"
+msgstr "Il giorno della settimana per la consegna del riassunto settimanale"
+
+#: class-keep-in-touch-settings.php:130
+#@ keep-in-touch
+msgid "The time of the day in which the daily and weekly digests will be delivered"
+msgstr "L'ora della consegna dei riassunti giornaliero e settimanale"
+
+#: class-keep-in-touch-settings.php:56
+#: class-keep-in-touch-settings.php:147
+#@ keep-in-touch
+msgid "Save settings"
+msgstr "Salva impostazioni"
+
+#: class-keep-in-touch-settings.php:111
+#@ keep-in-touch
+msgid "Delivery weekday"
+msgstr "Giorno della consegna"
+
+#: class-keep-in-touch-settings.php:121
+#@ keep-in-touch
+msgid "Delivery time"
+msgstr "Ora della consegna"
+
+#: class-keep-in-touch-msg.php:77
+#@ keep-in-touch
+msgid "Confirm subscription"
+msgstr "Confermare l'iscrizione"
+
+#: class-keep-in-touch-msg.php:125
+#@ keep-in-touch
+msgid "Subscription confirmed"
+msgstr "L'iscrizione è confermata"
+
+#: class-keep-in-touch-msg.php:153
+#@ keep-in-touch
+msgid "Confirm cancellation"
+msgstr "Confermare la cancellazione"
+
+#: class-keep-in-touch-msg.php:369
+#@ keep-in-touch
+msgid "Daily digest"
+msgstr "Riassunto giornaliero"
+
+#: class-keep-in-touch-msg.php:385
+#@ keep-in-touch
+msgid "Weekly digest"
+msgstr "Riassunto settimanale"
+
+#: class-keep-in-touch-msg.php:350
+#, php-format
+#@ keep-in-touch
+msgid "Newsletter: %s"
+msgstr "Notiziario: %s"
+
+#. translators: plugin header field 'PluginURI'
+#: keep-in-touch.php:0
+#@ keep-in-touch
+msgid "https://wordpress.org/plugins/keep-in-touch/"
+msgstr ""
+
+#. translators: plugin header field 'AuthorURI'
+#: keep-in-touch.php:0
+#@ keep-in-touch
+msgid "https://profiles.wordpress.org/racanu/"
+msgstr ""
+
+#: class-keep-in-touch-settings.php:135
+#@ keep-in-touch
+msgid "Header image"
+msgstr "Imagine di testata"
+
+#: class-keep-in-touch-settings.php:141
+#@ keep-in-touch
+msgid "Enter custom path to header image"
+msgstr "Inserire percorso personalizzato verso l'immagine di testata"
+
+#: class-keep-in-touch-settings.php:138
+#@ keep-in-touch
+msgid "Use get_header_image()"
+msgstr "Usa get_header_image()"
+
+#: class-keep-in-touch-settings.php:139
+#@ keep-in-touch
+msgid "Use custom path"
+msgstr "Usa percorso personalizzato"
+
+#: class-keep-in-touch-utils.php:14
+#@ keep-in-touch
+msgid "Keep in touch"
+msgstr "Resta in contatto"
+
+#: class-keep-in-touch-msg.php:55
+#@ keep-in-touch
+msgid "Anti-robot check failed"
+msgstr "Verifica anti-robot fallita"
+
+#: class-keep-in-touch-msg.php:100
+#@ keep-in-touch
+msgid "Subscription request failed"
+msgstr "Richiesta di abbonarsi fallita"
+
+#: class-keep-in-touch-msg.php:134
+#@ keep-in-touch
+msgid "New subscription successfully completed"
+msgstr "Iscrizione efettuata con successo."
+
+#: class-keep-in-touch-msg.php:174
+#@ keep-in-touch
+msgid "Cancellation request failed"
+msgstr "Richiesta di cancellazione fallita"
+
+#: class-keep-in-touch-msg.php:104
+#, php-format
+#@ keep-in-touch
+msgid ""
+"Subscription request failed for email address: %s\n"
+"\n"
+"The cause of this error is not clear.\n"
+"It may indicate a problem with your site or on the part of the user.\n"
+"It may also indicate an attack."
+msgstr ""
+"La richiesta d'iscrizione per l'indirizzo e-mail %s non è andata a buon fine.\n"
+"\n"
+"La causa di questo problema non è chiara.\n"
+"Può trattarsi di un problema del sito o della parte del utente.\n"
+"Può anche essere un attacco."
+
+#: class-keep-in-touch-msg.php:109
+#@ keep-in-touch
+msgid ""
+"Your subscription request failed.\n"
+"\n"
+"An email has been sent to us and we will handle your request shortly."
+msgstr ""
+"La richiesta d'iscrizione non  è andata a buon fine.\n"
+"\n"
+"Ci è stato inviato un e-mail per informarci dell'accaduto."
+
+#: class-keep-in-touch-msg.php:137
+#, php-format
+#@ keep-in-touch
+msgid ""
+"Subscription request for email address %s has been successfully completed.\n"
+"\n"
+"Congratulations! You have a new follower.\n"
+"\n"
+"If the e-mail address looks suspicious you should check its genuineness."
+msgstr ""
+"L'iscrizione per l'indirizzo e-mail %s è andata a buon fine.\n"
+"\n"
+"Congratulazioni! Un nuovo osservatore segue il sito.\n"
+"\n"
+"Se l'indirizzo e-mail sembrasse strano andrebbe verificata la sua genuinità."
+
+#: class-keep-in-touch-msg.php:58
+#, php-format
+#@ keep-in-touch
+msgid ""
+"An attempt to subscribe for updates using the following e-mail addresses has been rejected: %s, %s\n"
+"\n"
+"This may be a legitimate attempt to register or an attack.\n"
+"You should probably look into it either way."
+msgstr ""
+"Un tentativo d'iscrizione per gli aggiornamenti utilizzando i seguenti indirizzi e-mail è stato respinto: %s, %s.\n"
+"\n"
+"Può trattarsi di un tentativo legittimo d'iscrizione oppure può essere un attacco.\n"
+"In ogni caso va approfondito."
+
+#: class-keep-in-touch-msg.php:157
+#, php-format
+#@ keep-in-touch
+msgid ""
+"We have received a request to cancel your subscription.\n"
+"\n"
+"\n"
+"\n"
+"To confirm the request, use the following link: %s"
+msgstr ""
+"Abbiamo ricevuto una richiesta per cancellare la tua iscrizione.\n"
+"\n"
+"\n"
+"\n"
+"Per confermare la richiesta usa il seguente collegamento: %s"
+
+#: class-keep-in-touch-msg.php:178
+#, php-format
+#@ keep-in-touch
+msgid ""
+"Cancellation request failed for e-mail address: %s\n"
+"\n"
+"The cause of this error is not clear.\n"
+"It may indicate a problem with your site or on the part of the user.\n"
+"It may also indicate an attack."
+msgstr ""
+"La richiesta di cancellazione dell'iscrizione per l'indirizzo e-mail %s non è andata a buon fine.\n"
+"\n"
+"La causa di questo problema non è chiara.\n"
+"Può trattarsi di un problema del sito o della parte del utente.\n"
+"Può anche essere un attacco."
+
+#: class-keep-in-touch-msg.php:186
+#@ keep-in-touch
+msgid ""
+"Your subscription cancellation request failed.\n"
+"\n"
+"An email has been sent to us and we will handle your request shortly."
+msgstr ""
+"La richiesta di cancellazione dell'iscrizione non è andata a buon fine.\n"
+"\n"
+"Ci è stato inviato un e-mail per informarci dell'accaduto."
+
+#: class-keep-in-touch-msg.php:197
+#@ keep-in-touch
+msgid ""
+"Your subscription cancellation request has been confirmed.\n"
+"\n"
+"You will no longer be receiving updates from us.\n"
+"\n"
+"\n"
+"\n"
+"Hope you change your mind and come back soon"
+msgstr ""
+"La richiesta di cancellazione dell'iscrizione è stata confermata.\n"
+"\n"
+"Non riceverai più aggiornamenti da noi.\n"
+"\n"
+"\n"
+"\n"
+"Speriamo che cambi idea e ritorni presto."
+
+#: class-keep-in-touch-msg.php:202
+#@ keep-in-touch
+msgid "Subscription cancellation confirmed"
+msgstr "Cancellazione dell'iscrizione confermata"
+
+#: class-keep-in-touch-msg.php:208
+#@ keep-in-touch
+msgid "Subscription cancellation successfully completed"
+msgstr "Cancellazione effettuata con successo"
+
+#: class-keep-in-touch-msg.php:210
+#, php-format
+#@ keep-in-touch
+msgid ""
+"Subscription cancellation request for email address %s has been successfully completed.\n"
+"\n"
+"Bummer! You have lost a follower."
+msgstr ""
+"La cancellazione per l'indirizzo e-mail %s è andata a buon fine.\n"
+"\n"
+"Peccato! Un osservatore in meno per il sito."
+
+#: class-keep-in-touch-msg.php:227
+#, php-format
+#@ keep-in-touch
+msgid ""
+"Code %s is invalid.\n"
+"\n"
+"You may have used an expired confirmation link."
+msgstr "Il codice di conferma %s non è valido. Puoi aver utilizzato un collegamento di conferma scaduto."
+
+#: class-keep-in-touch-msg.php:249
+#@ keep-in-touch
+msgid "Date"
+msgstr "Data"
+
+#: class-keep-in-touch-msg.php:250
+#@ keep-in-touch
+msgid "Title"
+msgstr "Titolo"
+
+#: class-keep-in-touch-msg.php:336
+#@ keep-in-touch
+msgid "Also check your junk mail folder as the message is sometimes place there."
+msgstr "Verifica anche nella cartella Posta indesiderata."
+
+#: class-keep-in-touch-msg.php:343
+#, php-format
+#@ keep-in-touch
+msgid "To cancel your subscription. use the following link: %s"
+msgstr "Per cancellare la tua iscrizione usa il seguente collegamento: %s"
+
+#: class-keep-in-touch-settings.php:43
+#@ keep-in-touch
+msgid "Successful subscription message"
+msgstr "Messaggio iscrizione riuscita"
+
+#: class-keep-in-touch-msg.php:45
+#: class-keep-in-touch-widget.php:48
+#@ keep-in-touch
+msgid "Enter your name"
+msgstr "Inserire nome e cognome"
+
+#: class-keep-in-touch-settings.php:263
+#@ keep-in-touch
+msgid "Subscribers list"
+msgstr "Lista iscritti"
+
+#: class-keep-in-touch-msg.php:39
+#@ keep-in-touch
+msgid "To complete the subscription request, please retype your email address below."
+msgstr "Per completare la tua richiesta d'iscrizione, riscrivi il tuo indirizzo email qui sotto."
+
+#: class-keep-in-touch-msg.php:40
+#@ keep-in-touch
+msgid "We would also like to know your name so please also fill it in."
+msgstr "Ci farebbe piacere conoscere anche il tuo nome. Se vuoi, scrivilo nell'apposito campo."
+
+#: class-keep-in-touch-settings.php:29
+#@ keep-in-touch
+msgid "Subscription settings"
+msgstr "Impostazioni iscrizione"
+
+#: class-keep-in-touch-settings.php:39
+#@ keep-in-touch
+msgid "Request full name"
+msgstr "Richiedere nome completo"
+
+#: class-keep-in-touch-settings.php:267
+#@ keep-in-touch
+msgid "[not available]"
+msgstr "[non disponibile]"
+
+#. translators: plugin header field 'Version'
+#: keep-in-touch.php:0
+#@ keep-in-touch
+msgid "1.1"
+msgstr ""
+
+#: class-keep-in-touch-settings.php:47
+#@ keep-in-touch
+msgid "Send empty digest message"
+msgstr "Invia messaggio anche in caso di riassunto vuoto"
+
+#: class-keep-in-touch-settings.php:51
+#@ keep-in-touch
+msgid "Empty digest message"
+msgstr "Messaggio in caso di riassunto vuoto"
+
+#: keep-in-touch.php:48
+#@ keep-in-touch
+msgid ""
+"As it seems, we haven't been very active lately.\n"
+"\n"
+"There are no new posts.\n"
+"\n"
+"Maybe you can contribute some yourself ;)"
+msgstr ""
+"A quanto pare non siamo stati molto attivi ultimamente.\n"
+"\n"
+"Non ci  sono nuovi articoli.\n"
+"\n"
+"Forse ne potresti scrivere qualcuno tu ;)"
+
+#: class-keep-in-touch-msg.php:244
+#@ keep-in-touch
+msgid "These are the articles and pages published or updated lately on our site:"
+msgstr "Questi sono gli articoli e pagine ultimamente pubblicati o aggiornati sul nostro sito:"
+
+#: class-keep-in-touch-schedule.php:38
+#@ default
+msgid "Every minute"
+msgstr ""
+
+#: class-keep-in-touch-schedule.php:42
+#@ default
+msgid "Weekly"
+msgstr ""
+
+#: class-keep-in-touch-settings.php:35
+#@ keep-in-touch
+msgid "Use anti-robot page"
+msgstr "Utilizzare la pagina anti-robot"
+

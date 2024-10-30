@@ -1,0 +1,16 @@
+table.form-table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+table.form-table th {
+    width: 20%;
+}
+
+table.form-table textarea {
+    width: 100%;
+}
+
+table.form-table input[type='text'] {
+    width: 100%;
+}
